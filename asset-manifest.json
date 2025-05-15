@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kinep2rizki/WebTubesMiot.git/static/css/main.15e67d7e.css",
-    "main.js": "/kinep2rizki/WebTubesMiot.git/static/js/main.a3f37672.js",
-    "static/js/453.d787adaf.chunk.js": "/kinep2rizki/WebTubesMiot.git/static/js/453.d787adaf.chunk.js",
-    "index.html": "/kinep2rizki/WebTubesMiot.git/index.html",
-    "main.15e67d7e.css.map": "/kinep2rizki/WebTubesMiot.git/static/css/main.15e67d7e.css.map",
-    "main.a3f37672.js.map": "/kinep2rizki/WebTubesMiot.git/static/js/main.a3f37672.js.map",
-    "453.d787adaf.chunk.js.map": "/kinep2rizki/WebTubesMiot.git/static/js/453.d787adaf.chunk.js.map"
+    "main.css": "/WebTubesMiot/static/css/main.15e67d7e.css",
+    "main.js": "/WebTubesMiot/static/js/main.93ace334.js",
+    "static/js/453.d787adaf.chunk.js": "/WebTubesMiot/static/js/453.d787adaf.chunk.js",
+    "index.html": "/WebTubesMiot/index.html",
+    "main.15e67d7e.css.map": "/WebTubesMiot/static/css/main.15e67d7e.css.map",
+    "main.93ace334.js.map": "/WebTubesMiot/static/js/main.93ace334.js.map",
+    "453.d787adaf.chunk.js.map": "/WebTubesMiot/static/js/453.d787adaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15e67d7e.css",
-    "static/js/main.a3f37672.js"
+    "static/js/main.93ace334.js"
   ]
 }
