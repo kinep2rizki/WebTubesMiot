@@ -1,4 +1,3 @@
-// src/App.js
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/loginpage";
 import Dashboard from "./pages/dashboard";
@@ -6,11 +5,11 @@ import ProtectedRoute from "./components/protectedroute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/WebTubesMiot">
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route index element={<LoginPage />} />
         <Route
-          path="/dashboard"
+          path="dashboard"
           element={
             <ProtectedRoute>
               <Dashboard />
