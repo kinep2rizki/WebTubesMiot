@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F1FFE7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Wrapper utama */
+.dashboard-wrapper {
+  background-color: #235789;
+  padding: 32px 40px;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px; /* Spacing antar komponen lebih rapat */
+}
+
+/* Header */
+.dashboard-wrapper h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Status Servo */
+.servo-status {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Tombol ON */
+.button-on {
+  background-color: #0A8754;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.button-on:hover {
+  opacity: 0.85;
+}
+
+/* Tombol OFF */
+.button-off {
+  background-color: #CE2D4F;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.button-off:hover {
+  opacity: 0.85;
+}
+
+/* Logout */
+.logout-button {
+  background-color: white;
+  color: #235789;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #f0f0f0;
+  color: #0A8754;
+}

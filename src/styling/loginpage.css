@@ -1,0 +1,63 @@
+/* agar container utama full height dan jadi flexbox center */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;  /* center horizontal */
+  align-items: center;      /* center vertical */
+  background-color: #F1FFE7;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* kotak yang membungkus form */
+.login-box {
+  background-color: #235789;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* style judul */
+.login-box h1 {
+  margin-bottom: 2rem;
+}
+
+/* input style */
+.login-box input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.25rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* placeholder warna */
+.login-box input::placeholder {
+  color: #b0b0b0;
+}
+
+/* button style */
+.login-box button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ffffff;
+  color: #235789;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* efek hover button */
+.login-box button:hover {
+  background-color: #d4e7c4;
+}
