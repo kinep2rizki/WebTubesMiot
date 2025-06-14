@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 🚀 Web IoT Locker Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di **Web IoT Locker Dashboard**!  
+Aplikasi web modern berbasis React untuk mengelola dan memonitor status servo locker secara realtime menggunakan Firebase.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Fitur Unggulan
 
-### `npm start`
+- 🔐 **Login Aman** — Autentikasi pengguna dengan Firebase Authentication (Email & Password)
+- 📊 **Dashboard Realtime** — Pantau status servo locker (ON/OFF) secara langsung
+- 🔄 **Kontrol Servo** — Ubah status servo hanya dengan satu klik
+- 📝 **Riwayat Aktivitas** — Setiap perubahan status tercatat otomatis di database
+- 🚪 **Logout** — Keluar dengan aman dari aplikasi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🗂️ Struktur Proyek
 
-### `npm test`
+```
+src/
+  components/
+    authservice.js
+    firebaseService.js
+    protectedroute.js
+  media/
+  pages/
+    dashboard.js
+    loginpage.js
+  styling/
+    dashboard.css
+    loginpage.css
+  App.js
+  App.css
+  firebase.js
+  index.js
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚡️ Cara Instalasi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone repository ini**
+   ```bash
+   git clone https://github.com/username/web-iot-locker-dashboard.git
+   cd web-iot-locker-dashboard
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Buat file `.env` di root project**  
+   Masukkan konfigurasi Firebase Anda:
+   ```
+   REACT_APP_FIREBASE_API_KEY=your_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+   REACT_APP_FIREBASE_APP_ID=your_app_id
+   REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
+   ```
 
-### `npm run eject`
+4. **Jalankan aplikasi**
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔒 Keamanan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Jangan pernah commit file `.env` ke repository publik!**
+- Pastikan aturan keamanan Firebase Realtime Database hanya mengizinkan akses untuk user terautentikasi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Teknologi yang Digunakan
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/)
+- [Firebase Authentication](https://firebase.google.com/products/auth)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
+- CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📣 Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pull request dan saran sangat terbuka!  
+Silakan fork repo ini dan buat perubahan yang bermanfaat.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📬 Kontak
 
-### Making a Progressive Web App
+Untuk pertanyaan atau kolaborasi, hubungi:  
+**Nama Anda** — [email@example.com](mailto:email@example.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> © 2025 Web IoT Locker Dashboard — Made with ❤️ for Smart Locker
