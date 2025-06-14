@@ -96,7 +96,7 @@ Silakan fork repo ini dan buat perubahan yang bermanfaat.
 ## 📬 Kontak
 
 Untuk pertanyaan atau kolaborasi, hubungi:  
-**Nama Anda** — [email@example.com](mailto:email@example.com)
+**Rizki Nugroho Firdaus** — [rizkinf2004@gmail.com](mailto:rizkinf2004@gmail.com)
 
 ---
 
